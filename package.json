@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/devpabloh/03-api-solid#readme",
   "devDependencies": {
-    "@types/node": "^25.0.8",
-    "tsup": "^8.5.1",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "@types/node": "25.0.8",
+    "tsup": "8.5.1",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
   },
   "dependencies": {
-    "fastify": "^5.6.2"
+    "fastify": "5.6.2"
   }
 }
