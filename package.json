@@ -21,10 +21,16 @@
   },
   "homepage": "https://github.com/devpabloh/03-api-solid#readme",
   "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "25.0.8",
+    "eslint": "8.57.1",
+    "globals": "17.0.0",
+    "jiti": "2.6.1",
     "tsup": "8.5.1",
     "tsx": "4.21.0",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.53.0"
   },
   "dependencies": {
     "dotenv": "17.2.3",
