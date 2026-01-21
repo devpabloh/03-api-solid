@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
     "build": "tsup src --out-dir build",
-    "start": "node build/server.cjs"
+    "start": "node build/server.cjs",
+    "start:lint": "npx eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,19 +25,17 @@
     "@eslint/js": "9.39.2",
     "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "25.0.8",
-<<<<<<< HEAD
-    "prisma": "7.2.0",
-=======
     "eslint": "8.57.1",
     "globals": "17.0.0",
     "jiti": "2.6.1",
->>>>>>> 33061bd21be5c5fe6a9a06e6eab845065257f2cf
+    "prisma": "7.2.0",
     "tsup": "8.5.1",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
     "typescript-eslint": "8.53.0"
   },
   "dependencies": {
+    "@prisma/client": "7.2.0",
     "dotenv": "17.2.3",
     "fastify": "5.6.2",
     "zod": "4.3.5"
