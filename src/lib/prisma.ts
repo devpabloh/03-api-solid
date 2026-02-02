@@ -13,7 +13,10 @@ const pool = new Pool({ connectionString })
 const adapter = new PrismaPg(pool)
 
 const prismaClientSingleton = () => {
-  return new PrismaClient({ adapter })
+  return new PrismaClient({
+    adapter,
+    log: env.NODE_ENV === 'dev' ? ['query'] : [],
+  })
 }
 
 const prisma = globalForPrisma.prisma ?? prismaClientSingleton()
